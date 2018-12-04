@@ -18,7 +18,13 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "I18n/*": ["src/i18n/*"],
+      "Utils/*": ["src/utils/*"],
+      "Views/*": ["src/views/*"]
+    }
   },
   "exclude": [
     "node_modules",
